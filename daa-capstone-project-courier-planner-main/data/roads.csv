@@ -1,0 +1,13 @@
+from,to,km
+Depot,Market,4
+Depot,Campus,6
+Depot,Hospital,9
+Market,Campus,3
+Market,Station,5
+Campus,Library,4
+Campus,Hospital,5
+Hospital,Mall,6
+Station,Library,7
+Station,Airport,10
+Library,Mall,3
+Mall,Airport,8

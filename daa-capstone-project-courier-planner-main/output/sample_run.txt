@@ -1,0 +1,25 @@
+=== SORTED PARCELS (deadline, then priority) ===
+P03  dest=Hospital  w= 5kg  prio=10  due=1h
+P02  dest=Campus    w=12kg  prio= 9  due=2h
+P01  dest=Market    w= 8kg  prio= 6  due=4h
+P09  dest=Campus    w= 9kg  prio= 6  due=5h
+P05  dest=Library   w= 7kg  prio= 7  due=6h
+P06  dest=Mall      w=10kg  prio= 5  due=8h
+P04  dest=Station   w=15kg  prio= 4  due=10h
+P07  dest=Airport   w=20kg  prio= 8  due=12h
+P08  dest=Market    w= 6kg  prio= 3  due=24h
+P10  dest=Library   w= 4kg  prio= 2  due=30h
+
+=== PACKING PLAN (capacity 40 kg) ===
+P03 -> Hospital  (5 kg, prio 10)
+P02 -> Campus  (12 kg, prio 9)
+P01 -> Market  (8 kg, prio 6)
+P05 -> Library  (7 kg, prio 7)
+P08 -> Market  (6 kg, prio 3)
+Total weight: 38 kg | Total priority value: 35
+Left for next trip: P09, P06, P04, P07, P10
+
+=== DELIVERY ROUTE ===
+Stop order  : Depot -> Market -> Campus -> Library -> Hospital -> Depot
+Full path   : Depot -> Market -> Campus -> Library -> Mall -> Hospital -> Depot
+Route length: 29.0 km

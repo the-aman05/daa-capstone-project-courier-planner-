@@ -1,0 +1,11 @@
+id,dest,weight,priority,deadline
+P01,Market,8,6,4
+P02,Campus,12,9,2
+P03,Hospital,5,10,1
+P04,Station,15,4,10
+P05,Library,7,7,6
+P06,Mall,10,5,8
+P07,Airport,20,8,12
+P08,Market,6,3,24
+P09,Campus,9,6,5
+P10,Library,4,2,30
